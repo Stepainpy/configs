@@ -1,0 +1,27 @@
+## Editor behaviour
+# Backups
+set backupdir "~/.nano/backup"
+set backup
+
+# Spaces
+set tabstospaces
+set nonewlines
+set autoindent
+set tabsize 4
+
+# Cursor moving
+set positionlog
+set smarthome
+set softwrap
+set zap
+
+## Editor elements
+set constantshow
+set linenumbers
+set indicator
+set minibar
+
+## Colors
+set scrollercolor grey
+set   numbercolor white
+set      keycolor bold,white
