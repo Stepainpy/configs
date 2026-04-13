@@ -9,7 +9,7 @@ Folder with config and script files for me.
 ```console
 $ git config --global alias.st status
 $ git config --global alias.co checkout
-$ git config --global alias.logog 'log --oneline --graph'
+$ git config --global alias.lo 'log --oneline --graph'
 ```
 
 ## Bash
