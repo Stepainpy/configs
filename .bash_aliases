@@ -6,4 +6,4 @@ alias lla='ls -la'
 
 alias cls='clear'
 
-alias nano='nano --modernbindings'
+alias nano='nano -/'
