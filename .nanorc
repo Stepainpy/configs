@@ -26,6 +26,15 @@ set scrollercolor grey
 set   numbercolor white
 set      keycolor bold,white
 
+## Bindings
+
+# duplicate
+bind ^D "{copy}{paste}{up}" main
+# move line up
+bind Sh-M-W "{cut}{up}{paste}{up}" main
+# move line down
+bind Sh-M-S "{cut}{down}{paste}{up}" main
+
 ## Extend of syntax
 
 ## C/C++
