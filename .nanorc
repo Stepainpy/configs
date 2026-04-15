@@ -35,7 +35,10 @@ bind Sh-M-W "{cut}{up}{paste}{up}" main
 # move line down
 bind Sh-M-S "{cut}{down}{paste}{up}" main
 
-## Extend of syntax
+## Syntax highlight
+
+include "/usr/share/nano/*.nanorc"
+include "/usr/share/nano/extra/*.nanorc"
 
 ## C/C++
 # formatter program
