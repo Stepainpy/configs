@@ -4,6 +4,12 @@ Folder with config and script files for me.
 
 ## Git
 
+### Configs
+
+```console
+$ git config --global core.editor '/usr/bin/nano -/'
+```
+
 ### Aliases
 
 ```console
