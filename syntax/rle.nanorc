@@ -1,0 +1,16 @@
+## Syntax highlight for RLE pattern file
+
+syntax rle "\.rle$"
+comment "#"
+
+# Tags
+color lightmagenta "[[:digit:]]*([bo$]|\.[[:digit:]]+g)"
+color green "\$"
+color lightred "!"
+
+# Comments
+color blue "^#.*"
+color cyan "^#[NO] .*"
+
+# Trailing whitespace
+color ,green "[[:space:]]+$"
