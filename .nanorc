@@ -37,8 +37,11 @@ bind Sh-M-S "{cut}{down}{paste}{up}" main
 
 ## Syntax highlight
 
+# Standard folders
 include "/usr/share/nano/*.nanorc"
 include "/usr/share/nano/extra/*.nanorc"
+# Custom folder
+include "~/.nano/syntax/*.nanorc"
 
 ## C/C++
 # formatter program
