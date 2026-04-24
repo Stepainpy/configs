@@ -1,0 +1,11 @@
+## Syntax highlight for output of 'diff -u'
+
+syntax diff "\.diff$"
+comment ""
+
+# Header
+color cyan "^@@.*?@@"
+
+# Lines
+color red   "^\-.*$"
+color green "^\+.*$"
