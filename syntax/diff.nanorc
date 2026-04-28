@@ -3,9 +3,7 @@
 syntax diff "\.diff$"
 comment ""
 
-# Header
-color cyan "^@@.*?@@"
-
-# Lines
-color red   "^\-.*$"
-color green "^\+.*$"
+color cyan   "^@@.*@@$"
+color red    "^\-.*$"
+color green  "^\+.*$"
+color yellow "^\\.*$"
