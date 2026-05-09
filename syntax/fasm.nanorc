@@ -1,0 +1,39 @@
+## Syntax highlight for flat assembler files.
+
+syntax fasm "\.fasm$"
+comment ";"
+
+# Instructions
+color magenta "^[[:blank:]]+[[:alpha:]_][[:alnum:]_]*"
+color purple "\<syscall\>"
+
+# Registers
+color cyan "\<([re]?[a-d]x|[a-d][hl])\>"
+color cyan "\<[re]?([sb]p|[ds]i)\>"
+color cyan "\<r([89]|1[0-5])[dwb]?\>"
+
+# Data definitions and reservations
+color cyan "\<[dr]([bwdpfqt]|dq)\>"
+color cyan "\<(file|du)\>"
+
+# Command headers
+color lightred "^\<(format|segment|entry)\>.*$"
+color magenta  "^\<(format|segment|entry)\>"
+
+# Integers
+color lightgreen "\<[[:digit:]]+|0[Xx][[:xdigit:]]+\>"
+
+# Labels
+color lightmagenta "^[[:blank:]]*[[:alpha:]_][[:alnum:]_]*:[[:blank:]]*$"
+color normal ":[[:blank:]]*$"
+# Dollar sign
+color lightmagenta "(^|[[:blank:]])\$([[:blank:]]|$)"
+
+# String literals
+color lightyellow ""[^"]*""
+
+# Comments
+color lightblue ";[^"]*$|(^|[[:blank:]]);.*"
+
+# Trailing whitespace
+color ,green "[[:blank:]]+$"
