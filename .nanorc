@@ -49,4 +49,4 @@ extendsyntax c formatter astyle
 # escape symbol in string and character literal
 extendsyntax c color orange "\\($|[\'"abfnrtv]|[0-3]?[0-7]?[0-7]|x[[:xdigit:]]{2})"
 # format specifier
-extendsyntax c color cyan "%(%|[-+ \#0]*(\*|([1-9][0-9]*)?)?(\.(\*|([1-9][0-9]*)?))?(hh?|ll?|j|z|t|L)?[csdioxXufFeEaAgGnp])"
+extendsyntax c color cyan "%(%|[-+ \#0]*(\*|([1-9][0-9]*)?)?(\.(\*|[0-9]*))?(hh?|ll?|j|z|t|L)?[csdioxXufFeEaAgGnp])"
