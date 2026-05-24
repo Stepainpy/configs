@@ -50,3 +50,4 @@ extendsyntax c formatter astyle
 extendsyntax c color orange "\\($|[\'"abfnrtv]|[0-3]?[0-7]?[0-7]|x[[:xdigit:]]{2})"
 # format specifier
 extendsyntax c color cyan "%(%|[-+ \#0]*(\*|([1-9][0-9]*)?)?(\.(\*|[0-9]*))?(hh?|ll?|j|z|t|L)?[csdibBouxXfFeEgGaAnp])"
+extendsyntax c color cyan "%(%|\*?([1-9][0-9]*)?(hh?|ll?|j|z|t|L)?[csdibBouxXfFeEgGaAnp])"
