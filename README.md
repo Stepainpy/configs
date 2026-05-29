@@ -13,10 +13,11 @@ $ git config --global core.editor '/usr/bin/nano -/'
 ### Aliases
 
 ```console
-$ git config --global alias.st status
-$ git config --global alias.co checkout
-$ git config --global alias.lo log --oneline --pretty='format:%C(auto)%h%Creset %s%C(auto)%d%Creset'
-$ git config --global alias.fix commit -m
+$ git config --global alias.co  checkout
+$ git config --global alias.st  status
+$ git config --global alias.sts "status -s"
+$ git config --global alias.fix "commit -m"
+$ git config --global alias.lo  "log --oneline --pretty='format:%C(auto)%h%Creset %s%C(auto)%d%Creset'"
 ```
 
 ## Bash
