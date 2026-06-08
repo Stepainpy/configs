@@ -13,3 +13,5 @@ alias cmake-build='cmake --build build --config Release'
 alias cmake-clean='rm -rf bin/ build/'
 
 alias ctest-run='ctest --test-dir build --output-on-failure'
+
+alias tree-proj='tree $(pwd) -a --dirsfirst -I .git -I build'
