@@ -15,3 +15,8 @@ alias cmake-clean='rm -rf bin/ build/'
 alias ctest-run='ctest --test-dir build --output-on-failure'
 
 alias tree-proj='tree $(pwd) -a --dirsfirst -I .git -I build'
+
+function mcd() {
+    mkdir -p $1
+    cd $1
+}
